@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+<meta charset="utf-8">
+<title>GoWeb代码的执行流程 - Day Day Up</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://vale-sail.github.io/post/GoWeb代码的执行流程/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="description" content="Go代码的执行流程handler和handlerFunc 都居于ServerHttp的方法 Handler接口存在ServeHTTP方法，但是http.handler 定义的函数并没有这个方法，所以进行类型强制转换，是自定义函数具有ServerHttp方法 通过对http包的分析之后，现在让我们来梳理一下整个的代码执行过程。  首先调用Http.HandleFunc   调用了DefaultSer">
+<meta name="keywords" content="golang">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GoWeb代码的执行流程">
+<meta property="og:url" content="https://vale-sail.github.io/post/GoWeb代码的执行流程/index.html">
+<meta property="og:site_name" content="Day Day Up">
+<meta property="og:description" content="Go代码的执行流程handler和handlerFunc 都居于ServerHttp的方法 Handler接口存在ServeHTTP方法，但是http.handler 定义的函数并没有这个方法，所以进行类型强制转换，是自定义函数具有ServerHttp方法 通过对http包的分析之后，现在让我们来梳理一下整个的代码执行过程。  首先调用Http.HandleFunc   调用了DefaultSer">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://tvax1.sinaimg.cn/crop.0.0.568.568.180/68e50193ly8fnppcuzyhej20fs0fswf2.jpg`">
+<meta property="og:updated_time" content="2021-03-04T13:48:16.047Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GoWeb代码的执行流程">
+<meta name="twitter:description" content="Go代码的执行流程handler和handlerFunc 都居于ServerHttp的方法 Handler接口存在ServeHTTP方法，但是http.handler 定义的函数并没有这个方法，所以进行类型强制转换，是自定义函数具有ServerHttp方法 通过对http包的分析之后，现在让我们来梳理一下整个的代码执行过程。  首先调用Http.HandleFunc   调用了DefaultSer">
+<meta name="twitter:image" content="https://tvax1.sinaimg.cn/crop.0.0.568.568.180/68e50193ly8fnppcuzyhej20fs0fswf2.jpg`">
+<link rel="stylesheet" href="/fonts.b9b22ef890c930ac7a13.css">
+<link rel="stylesheet" href="/styles.f3ea1e219d757e5d89f5.css">
+<link rel="stylesheet" href="/theme.7267a954616e3e7547d7.css">
+<script src="/config.8c8725af6c747ca41f91.js"></script>
+</head>
+<body>
+<is-d2a57d></is-d2a57d>
+<script src="/runtime.a5dd35324ddfd942bef1.js"></script>
+<script src="/polyfills.bd3fb034406e30e3b5dc.js"></script>
+<script src="/main.54734ab978f98119b312.zh-Hans.js"></script>
+</body>
+</html>
